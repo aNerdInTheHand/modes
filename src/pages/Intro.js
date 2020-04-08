@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
 
-
-const Intro = props => {
+const About = props => {
   const [showContent, setShowContent] = useState(false)
   return (
-    <div>
-      <h1 className='modes-intro'><span role='img' aria-label='guitar emoji'>🎸</span> Musical Modes for guitarists <span role='img' aria-label='guitar emoji'>🎸</span></h1>
+    <div className='section'>
       <div onClick={() => setShowContent(!showContent)}>
         {showContent
           ? returnContent()
@@ -33,4 +31,4 @@ const returnContent = () => (
 
 const returnTitle = () => <div class='subtitle'>What is this page?</div>
 
-export default Intro
+export default About
