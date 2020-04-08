@@ -1,22 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Intro from './pages/Intro'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Some stuff about musical moddes to follow here. Maybe.
-        </p>
+        <Intro />
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://soundcloud.com/nick-holvast"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Shameless plug to my music
         </a>
       </header>
     </div>
