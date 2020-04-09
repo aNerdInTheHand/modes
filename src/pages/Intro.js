@@ -1,20 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
+import Page from '../components/Page'
 
-const About = props => {
-  const [showContent, setShowContent] = useState(false)
-  return (
-    <div className='section'>
-      <div onClick={() => setShowContent(!showContent)}>
-        {showContent
-          ? returnContent()
-          : returnTitle()
-        }
-      </div>
-    </div>
-  )
-}
+const Intro = props => <Page content={() => content()} title={() => title()}></Page>
 
-const returnContent = () => (
+const content = () => (
   <p>
     Modes can be a confusing aspect of music theory, particularly when approaching them as a guitarist who has been used to simply learning scales. Ok, one scale, the trusty minor pentatonic. Maybe the blues scale. Natural minor if you want to get fancy.
     Then one day you hear somebody talking about 'modes'. <i>Modes</i> you think. Sounds interesting. So you search <a
@@ -29,6 +18,6 @@ const returnContent = () => (
   </p>
 )
 
-const returnTitle = () => <div class='subtitle'>What is this page?</div>
+const title = () => <div className='subtitle'>What is this page?</div>
 
-export default About
+export default Intro

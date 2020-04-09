@@ -24,7 +24,12 @@
 }
 
 .section {
-  margin-bottom: 1rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 1024px;
 }
 
 @keyframes App-logo-spin {

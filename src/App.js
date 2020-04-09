@@ -1,9 +1,9 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
 import Intro from './pages/Intro'
 import About from './pages/About'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,7 +20,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
