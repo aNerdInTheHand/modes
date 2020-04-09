@@ -10,7 +10,7 @@ const Page = props => {
   }
   const symbolStyle = {
     color: '#bada55',
-    'font-weight': '800'
+    'fontWeight': '800'
   }
   return (
     <div

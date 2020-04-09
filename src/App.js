@@ -1,9 +1,42 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css'
 import Intro from './pages/Intro'
 import About from './pages/About'
+import Ionian from './pages/Ionian'
+import Dorian from './pages/Dorian'
+import Phrygian from './pages/Phrygian'
+import Lydian from './pages/Lydian'
+import Mixolydian from './pages/Mixolydian'
+import Aeolian from './pages/Aeolian'
+import Locrian from './pages/Locrian'
 
 const App = () => {
+  const keys = ['C', 'G', 'D', 'A', 'E', 'B', 'F#']
+  const intervals = ['Tone', 'Tone', 'Semitone', 'Tone', 'Tone', 'Tone', 'Semitone']
+  const [key, setKey] = useState('C')
+
+  const handleKeyChange = e => setKey(e.target.value)
+
+  const selectKeyDropdown = () => (
+    <div className='dropdown'>
+      <p>First, pick a key, any key. No, not that one, an easy one please: </p>
+      <select
+        className='select'
+        onChange={handleKeyChange}
+        defaultValue={keys[0]}
+      >
+        {keys.map((selectedKey, i) => (
+          <option
+            value={selectedKey}
+            key={i}
+          >
+            {selectedKey}
+          </option>
+        ))}
+      </select>
+    </div>
+  )
+
   return (
     <div className="App">
       <header className="App-header">
@@ -12,6 +45,15 @@ const App = () => {
         <About />
         <hr className='hr' />
         <h2 className='modes-header'>Modes of the major scale</h2>
+        {selectKeyDropdown()}
+        <Ionian />
+        <Dorian />
+        <Phrygian />
+        <Lydian />
+        <Mixolydian />
+        <Aeolian />
+        <Locrian />
+
         <a
           className="App-link"
           href="https://soundcloud.com/nick-holvast"
