@@ -1,5 +1,7 @@
 import React from 'react'
 
 export default props => (
-  <div>Info about the mode will be here...</div>
+  <div className={`mode-overview mode-overview-${props.modeName}`}>
+    <h3>The {props.modeName} Mode</h3>
+  </div>
 )

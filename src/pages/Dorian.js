@@ -5,9 +5,9 @@ import ModeOverview from '../components/ModeOverview'
 const Dorian = props => <Page content={() => content()} title={() => title()}></Page>
 
 const content = () => (
-  <p className='mode-section'>
-    <ModeOverview />
-  </p>
+  <div className='mode-section'>
+    <ModeOverview modeName={'Dorian'} />
+  </div>
 )
 
 const title = () => <div className='subtitle'>Dorian</div>
