@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './App.css'
 import Intro from './pages/Intro'
 import About from './pages/About'
+import Info from './pages/Info'
 import Ionian from './pages/Ionian'
 import Dorian from './pages/Dorian'
 import Phrygian from './pages/Phrygian'
@@ -19,7 +20,7 @@ const App = () => {
 
   const selectKeyDropdown = () => (
     <div className='dropdown'>
-      <p>First, pick a key, any key. No, not that one, an easy one please: </p>
+      <Info />
       <select
         className='select'
         onChange={handleKeyChange}

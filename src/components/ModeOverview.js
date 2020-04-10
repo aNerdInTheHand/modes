@@ -1,13 +1,12 @@
 import React from 'react'
 
-const renderTable = chords => {
-  console.log(chords)
-  return (<table className='mode-table'>
+const renderTable = chords => (
+  <table className='mode-table'>
     <tbody>
       {chords.map((row, i) => renderTableRow(row, i))}
     </tbody>
-  </table>)
-}
+  </table>
+)
 
 const renderTableRow = (row, i) => (
   <tr key={`tr-${i}`}>

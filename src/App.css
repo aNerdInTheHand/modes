@@ -75,6 +75,8 @@ select {
 .mode-table {
   border-collapse: collapse;
   border-spacing: 0;
+  min-width: 200px;
+  display: inline-flex;
 }
 
 .mode-table td {
@@ -99,4 +101,8 @@ select {
   border-color: inherit;
   /* text-align: left; */
   vertical-align: top
+}
+
+.mode-section {
+  flex-direction: row;
 }
