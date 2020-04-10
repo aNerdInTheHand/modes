@@ -1,12 +1,15 @@
 import React from 'react'
 import Page from '../components/Page'
 import ModeOverview from '../components/ModeOverview'
+import { ionianChords } from '../constants/chords'
 
 const Ionian = props => <Page content={() => content(props)} title={() => title()}></Page>
 
 const content = () => (
   <div className='mode-section'>
-    <ModeOverview modeName={'Ionian'} />
+    <ModeOverview
+      modeName={'Ionian'}
+      chords={ionianChords} />
   </div>
 )
 

@@ -71,3 +71,32 @@ select {
   appearance: none;
   background: url('point-down.png') 96% / 35% no-repeat #EEE;
 }
+
+.mode-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.mode-table td {
+  padding: 5px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+.mode-table th {
+  padding: 5px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+.mode-table .table-head .table-data {
+  border-color: inherit;
+  /* text-align: left; */
+  vertical-align: top
+}
