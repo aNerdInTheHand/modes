@@ -83,7 +83,7 @@ select {
   border-width: 1px;
   overflow: hidden;
   word-break: normal;
-  border-color: black;
+  border-color: #b000b5;
 }
 
 .mode-table th {
