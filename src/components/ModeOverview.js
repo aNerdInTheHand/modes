@@ -1,15 +1,18 @@
 import React from 'react'
 
-const renderTable = chords => (
-  <table className='mode-table'>
-    {chords.map(row => renderTableRow({row}))}
-  </table>
-)
+const renderTable = chords => {
+  console.log(chords)
+  return (<table className='mode-table'>
+    <tbody>
+      {chords.map((row, i) => renderTableRow(row, i))}
+    </tbody>
+  </table>)
+}
 
-const renderTableRow = ({row}) => (
-  <tr>
+const renderTableRow = (row, i) => (
+  <tr key={`tr-${i}`}>
     <td key={row.note}>{row.note}</td>
-    <td key={row.chords}>{row.chords}</td>
+    <td key={`${row.note}-${i}`}>{row.chords}</td>
   </tr>
 )
 
