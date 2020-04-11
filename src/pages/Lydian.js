@@ -21,37 +21,46 @@ const content = () => (
 
 const whatIsIt = () => (
   <ul>
-    <li>The Dorian mode is the second degree mode of the major scale.</li>
-    <li>In other words, its scale is the major scale starting from the second note of the major scale.</li>
-    <li>Its intervals are T-T-S-T-T-T-S.</li>
+    <li>The Lydian mode is the fourth degree mode of the major scale.</li>
+    <li>In other words, its scale is the major scale starting from the fourth note of the major scale.</li>
+    <li>Its intervals are T-T-T-S-T-S-S.</li>
   </ul>
 )
 
 const soundsLike = () => (
   <p>
-    The Ionian mode is happy, as you'd expect from a mode with all perfect and major intervals.
-    Don't expect too much drama from this mode - lots of nice, soft major sevenths on both the I and the IV are the order of the day.
+    Ah yes, the mode every guitarist wants to master. The Lydian mode is a proper dreamboat of a mode.
+    By which I mean it has a 'dreamlike' quality, an ethereal, almost otherwordly quality that induces transports of delight and-
+    oops, sorry, got carried away a bit there. Easy done with this belter of a mode.
   </p>
 )
 
 const spotIt = () => (
   <p>
-    Keep it simple, stupid. I-IV-V-I will work nicely with a major 7 chord on the I.
-    To really pin down the Ionian flavour, use a second inversion on the IV chord (this uses the I note of the scale in the root of your IV chord) and a sus4 on your V chord (which again uses that I note).
-    If you want to get really wild, make the V dominant, but don't come crying to me if you just end up smashing wild Mixolydian phrases over it.
+    There are progressions to look out for that will enable you to use the Lydian mode,
+    but to really get the most out of it you're looking for the IV chord in your progression to have
+    a #11 (which is enharmonic with the #4 in the scale.) Ideally you're looking for the IV chord to be followed by a V,
+    but resist the urge to then resolve that V back to the I. You <i>want</i> that slightly uneasy,
+    unresolved feeling. The best way to get into the Lydian mode is to try it over a repeating IV-V vamp,
+    especially if you can throw in a maj7#11 on the IV chord.
   </p>
 )
 
 const soloOverIt = () => (
   <p>
-    Softly softly catchy monkey. If you're playing over an Ionian progression, you're probably not going to be smashing out whammy bar dives with the gain up to 11.
-    But hey, don't let me stop you. To really get the feel of the Ionian mode though, you want to really play on the half-step between the major 7 and the I (or octave).
+    When you get that IV-V loop, don't just mindlessly trill that #4. It's the tempting thing to do
+    as it's the killer note of the scale, but what really gives you the benefit is to run up the scale
+    from the root. Hit the root... then the perfect second... then the major third... nice, ok, lovely major scale...
+    NOW - BAM! - hit that #4. It's that illusion of playing a basic major scale but then knowing when to
+    leverage the dreamlike qualities of that #4 that will make you sound like a Lydian god.
+    Just remember that it's not always a simple mode to use as that #4 can easily sound jarring.
   </p>
 )
 
 const hearIt = () => (
   <p>
-    You'll hear Ionian music in lots of places - think nursery rhymes, Christmas carols, sentimental music, live lounge acoustic music.
+    The Lydian mode is extremely common in movie soundtracks.
+    It's also really popular with virtuoso guitarists like Steve Vai and Joe Satriani.
   </p>
 )
 
