@@ -21,37 +21,42 @@ const content = () => (
 
 const whatIsIt = () => (
   <ul>
-    <li>The Dorian mode is the second degree mode of the major scale.</li>
-    <li>In other words, its scale is the major scale starting from the second note of the major scale.</li>
-    <li>Its intervals are T-T-S-T-T-T-S.</li>
+    <li>The Mixolydian mode is the fifth degree mode of the major scale.</li>
+    <li>In other words, its scale is the major scale starting from the fifth note of the major scale.</li>
+    <li>Its intervals are T-T-S-T-S-S-T.</li>
   </ul>
 )
 
 const soundsLike = () => (
   <p>
-    The Ionian mode is happy, as you'd expect from a mode with all perfect and major intervals.
-    Don't expect too much drama from this mode - lots of nice, soft major sevenths on both the I and the IV are the order of the day.
+    The major scale on cocaine. Just take the major scale and flatten the seventh and you've
+    got a totally different beast. It's screaming blues, it's classic rock, hard rock, it's the
+    scale I use more than any other.
   </p>
 )
 
 const spotIt = () => (
   <p>
-    Keep it simple, stupid. I-IV-V-I will work nicely with a major 7 chord on the I.
-    To really pin down the Ionian flavour, use a second inversion on the IV chord (this uses the I note of the scale in the root of your IV chord) and a sus4 on your V chord (which again uses that I note).
-    If you want to get really wild, make the V dominant, but don't come crying to me if you just end up smashing wild Mixolydian phrases over it.
+    You can wang a Mixolydian phrase in anywhere there's a dominant chord (a 7, 9 or 13 chord).
+    This means you can play it over any progression with a V chord. It works well over a V-IV-I.
+    It's probably most commonly associated with the twelve bar blues, where every chord is a dominant.
+    Just remember that with the changing of the chords in your 12 bar progression, the key changes.
+    This is because as a general rule, a dominant chord is always the V and can be used to determine the key.
+    For example, if you have a 12 bar in E, when you play that E7 the home key is A.
+    When you then hit an A7, you're really saying A is the V chord and the home key is D.
   </p>
 )
 
 const soloOverIt = () => (
   <p>
-    Softly softly catchy monkey. If you're playing over an Ionian progression, you're probably not going to be smashing out whammy bar dives with the gain up to 11.
-    But hey, don't let me stop you. To really get the feel of the Ionian mode though, you want to really play on the half-step between the major 7 and the I (or octave).
+    You can't go wrong with this one - slide up from the minor 7 to the octave, bend a minor third up to the major third,
+    throw in double stops, whammy dips and bends all over the shop, just go wild and have a really great time.
   </p>
 )
 
 const hearIt = () => (
   <p>
-    You'll hear Ionian music in lots of places - think nursery rhymes, Christmas carols, sentimental music, live lounge acoustic music.
+    Try the intro and licks to "I'm Tore Down" by Eric Clapton - or a million other blues songs.
   </p>
 )
 
