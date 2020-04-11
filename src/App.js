@@ -19,10 +19,9 @@ const App = () => {
   const handleKeyChange = e => setKey(e.target.value)
 
   const selectKeyDropdown = () => (
-    <div className='dropdown'>
-      <Info />
+    <div>
       <select
-        className='select'
+        className='select dropdown'
         onChange={handleKeyChange}
         defaultValue={keys[0]}
       >
@@ -46,6 +45,7 @@ const App = () => {
         <About />
         <hr className='hr' />
         <h2 className='modes-header'>Modes of the major scale</h2>
+        <Info />
         {selectKeyDropdown()}
         <Ionian />
         <Dorian />

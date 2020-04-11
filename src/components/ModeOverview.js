@@ -3,13 +3,17 @@ import React from 'react'
 const renderTable = chords => (
   <table className='mode-table'>
     <tbody>
+      <tr className='tr-header'>
+        <td>Scale</td>
+        <td>Chords</td>
+      </tr>
       {chords.map((row, i) => renderTableRow(row, i))}
     </tbody>
   </table>
 )
 
 const renderTableRow = (row, i) => (
-  <tr key={`tr-${i}`}>
+  <tr key={`tr-${i}`} className='tr-data'>
     <td key={row.note}>{row.note}</td>
     <td key={`${row.note}-${i}`}>{row.chords}</td>
   </tr>
