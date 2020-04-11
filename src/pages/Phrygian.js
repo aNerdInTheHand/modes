@@ -41,6 +41,9 @@ const spotIt = () => (
     Really you're looking for a iii-IV-V - although the iii will often be a dominant chord.
     The key is that half-step between the iii and the IV chord, which gives you that minor second interval in your Phrygian scale.
     When the perfect IV is followed by the perfect V, you know you're dealing with a Phrygian progression.
+    Often you'll hear a song with a Phrygian feel but what should, in a pure Phrygian mode, be a iii (minor)
+    is actually a III (major or dominant) - for example White Rabbit by Jefferson Airplane.
+    Sometimes it can be easier for this mode to use riffs and basslines rather than chords.
   </p>
 )
 
@@ -53,9 +56,9 @@ const soloOverIt = () => (
 )
 
 const hearIt = () => (
-  <p>
-    Flamenco - that's where my knowledge of this mode really starts and ends.
-  </p>
+  <ul>
+    <li>Summer Again - Big Mile (disclaimer - my old band, find on Soundcloud, link to follow)</li>
+  </ul>
 )
 
 const title = () => <div className='subtitle'>Phrygian</div>

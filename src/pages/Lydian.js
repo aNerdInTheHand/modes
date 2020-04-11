@@ -58,10 +58,10 @@ const soloOverIt = () => (
 )
 
 const hearIt = () => (
-  <p>
-    The Lydian mode is extremely common in movie soundtracks.
-    It's also really popular with virtuoso guitarists like Steve Vai and Joe Satriani.
-  </p>
+  <ul>
+    <li>Flying In A Blue Dream - Joe Satriani</li>
+    <li>The Simpsons Theme Song</li>
+  </ul>
 )
 
 const title = () => <div className='subtitle'>Lydian</div>

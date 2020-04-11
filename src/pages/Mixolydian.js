@@ -55,9 +55,9 @@ const soloOverIt = () => (
 )
 
 const hearIt = () => (
-  <p>
-    Try the intro and licks to "I'm Tore Down" by Eric Clapton - or a million other blues songs.
-  </p>
+  <ul>
+    <li>I'm Tore Down - Eric Clapton</li>
+  </ul>
 )
 
 const title = () => <div className='subtitle'>Mixolydian</div>
