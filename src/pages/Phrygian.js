@@ -21,37 +21,40 @@ const content = () => (
 
 const whatIsIt = () => (
   <ul>
-    <li>The Dorian mode is the second degree mode of the major scale.</li>
-    <li>In other words, its scale is the major scale starting from the second note of the major scale.</li>
-    <li>Its intervals are T-T-S-T-T-T-S.</li>
+    <li>The Phrygian mode is the third degree mode of the major scale.</li>
+    <li>In other words, its scale is the major scale starting from the third note of the major scale.</li>
+    <li>Its intervals are S-T-T-T-S-T-S.</li>
   </ul>
 )
 
 const soundsLike = () => (
   <p>
-    The Ionian mode is happy, as you'd expect from a mode with all perfect and major intervals.
-    Don't expect too much drama from this mode - lots of nice, soft major sevenths on both the I and the IV are the order of the day.
+    The "Spanish Gypsy mode" has a lot of minor flavour to it but maintains perfect IV and V intervals.
+    This gives it a pretty cool and very distinctive sound that you can spot from a mile away.
+    It screams "Flamenco".
   </p>
 )
 
 const spotIt = () => (
   <p>
-    Keep it simple, stupid. I-IV-V-I will work nicely with a major 7 chord on the I.
-    To really pin down the Ionian flavour, use a second inversion on the IV chord (this uses the I note of the scale in the root of your IV chord) and a sus4 on your V chord (which again uses that I note).
-    If you want to get really wild, make the V dominant, but don't come crying to me if you just end up smashing wild Mixolydian phrases over it.
+    I think the Phrygian mode is one of the trickiest to write progressions for.
+    Really you're looking for a iii-IV-V - although the iii will often be a dominant chord.
+    The key is that half-step between the iii and the IV chord, which gives you that minor second interval in your Phrygian scale.
+    When the perfect IV is followed by the perfect V, you know you're dealing with a Phrygian progression.
   </p>
 )
 
 const soloOverIt = () => (
   <p>
-    Softly softly catchy monkey. If you're playing over an Ionian progression, you're probably not going to be smashing out whammy bar dives with the gain up to 11.
-    But hey, don't let me stop you. To really get the feel of the Ionian mode though, you want to really play on the half-step between the major 7 and the I (or octave).
+    Again, I think this is tricky. While the Phrygian scale is beautiful, I rarely find myself with the chance to utilise it.
+    If you do come across that elusive iii-IV-V, just stretch your legs and have a nice run up and down the scale,
+    smashing a few hammer-ons between the 5th and minor 6 note and the root and minor second, those little semitones are what make the mode.
   </p>
 )
 
 const hearIt = () => (
   <p>
-    You'll hear Ionian music in lots of places - think nursery rhymes, Christmas carols, sentimental music, live lounge acoustic music.
+    Flamenco - that's where my knowledge of this mode really starts and ends.
   </p>
 )
 
