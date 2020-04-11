@@ -20,38 +20,39 @@ const content = () => (
 )
 
 const whatIsIt = () => (
-  <p>
-    The Ionian mode is the first degree mode of the major scale. In other words, its scale is the major scale starting from the first note of the major scale.
-    In (other) other words, its scale is just the major scale.
-    Its intervals are T-T-S-T-T-T-S.
-  </p>
+  <ul>
+    <li>The Dorian mode is the second degree mode of the major scale.</li>
+    <li>In other words, its scale is the major scale starting from the second note of the major scale.</li>
+    <li>Its intervals are T-S-T-T-T-S-T.</li>
+  </ul>
 )
 
 const soundsLike = () => (
   <p>
-    The Ionian mode is happy, as you'd expect from a mode with all perfect and major intervals.
-    Don't expect too much drama from this mode - lots of nice, soft major sevenths on both the I and the IV are the order of the day.
+    The Dorian mode to me has a Latin vibe with a little bit of jazz.
+    Latin probably because I associate this mode heavily with Carlos Santana, and jazz because it's the ii-V-I mode,
+    and every jazz piece is legally obliged to have at least 17 ii-V-I turnarounds.
   </p>
 )
 
 const spotIt = () => (
   <p>
-    Keep it simple, stupid. I-IV-V-I will work nicely with a major 7 chord on the I.
-    To really pin down the Ionian flavour, use a second inversion on the IV chord (this uses the I note of the scale in the root of your IV chord) and a sus4 on your V chord (which again uses that I note).
-    If you want to get really wild, make the V dominant, but don't come crying to me if you just end up smashing wild Mixolydian phrases over it.
+    This is the ii-V-I mode. When you see ii-V-I, hit that Dorian button. Hard.
   </p>
 )
 
 const soloOverIt = () => (
   <p>
-    Softly softly catchy monkey. If you're playing over an Ionian progression, you're probably not going to be smashing out whammy bar dives with the gain up to 11.
-    But hey, don't let me stop you. To really get the feel of the Ionian mode though, you want to really play on the half-step between the major 7 and the I (or octave).
+    The major 6 in this scale is what separates it from a natural minor and in my opinion you can't really overplay that note.
+    I like to slide up into it from a minor 6. Don't neglect the minor 3 either as it provides a nice contrast with the major 6.
+    If you can, pay attention to the notes in the chords. I know that's easier said than done though so hopefully the above advice helps you just utilise the scale.
   </p>
 )
 
 const hearIt = () => (
   <p>
-    You'll hear Ionian music in lots of places - think nursery rhymes, Christmas carols, sentimental music, live lounge acoustic music.
+    Any and all jazz standards, or if jazz isn't your bag, just listen to the riff of Oye Como Va by Santana.
+    And if Santana isn't your bag, I really don't think we can be friends any more.
   </p>
 )
 

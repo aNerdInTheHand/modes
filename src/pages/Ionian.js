@@ -20,11 +20,11 @@ const content = () => (
 )
 
 const whatIsIt = () => (
-  <p>
-    The Ionian mode is the first degree mode of the major scale. In other words, its scale is the major scale starting from the first note of the major scale.
-    In (other) other words, its scale is just the major scale.
-    Its intervals are T-T-S-T-T-T-S.
-  </p>
+  <ul>
+    <li>The Ionian mode is the first degree mode of the major scale. In other words, its scale is the major scale starting from the first note of the major scale.</li>
+    <li>In (other) other words, its scale is just the major scale.</li>
+    <li>Its intervals are T-T-S-T-T-T-S.</li>
+  </ul>
 )
 
 const soundsLike = () => (

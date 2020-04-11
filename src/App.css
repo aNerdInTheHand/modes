@@ -56,6 +56,10 @@ h2 {
   }
 }
 
+ul li {
+  text-align: left;
+}
+
 select {
   margin: 1rem;
   margin-top: 0;
