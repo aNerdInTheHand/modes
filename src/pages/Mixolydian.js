@@ -23,7 +23,7 @@ const whatIsIt = () => (
   <ul>
     <li>The Mixolydian mode is the fifth degree mode of the major scale.</li>
     <li>In other words, its scale is the major scale starting from the fifth note of the major scale.</li>
-    <li>Its intervals are T-T-S-T-S-S-T.</li>
+    <li>Its intervals are T-T-S-T-T-S-T.</li>
   </ul>
 )
 

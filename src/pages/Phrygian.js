@@ -23,7 +23,7 @@ const whatIsIt = () => (
   <ul>
     <li>The Phrygian mode is the third degree mode of the major scale.</li>
     <li>In other words, its scale is the major scale starting from the third note of the major scale.</li>
-    <li>Its intervals are S-T-T-T-S-T-S.</li>
+    <li>Its intervals are S-T-T-T-S-T-T.</li>
   </ul>
 )
 

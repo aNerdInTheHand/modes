@@ -23,7 +23,7 @@ const whatIsIt = () => (
   <ul>
     <li>The Aeolian mode is the sixth degree mode of the major scale.</li>
     <li>In other words, its scale is the major scale starting from the sixth note of the major scale.</li>
-    <li>Its intervals are T-S-T-S-S-T-T.</li>
+    <li>Its intervals are T-S-T-T-S-T-T.</li>
   </ul>
 )
 
