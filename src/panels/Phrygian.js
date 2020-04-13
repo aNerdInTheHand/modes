@@ -1,9 +1,9 @@
 import React from 'react'
-import Page from '../components/Page'
+import Panel from '../components/Panel'
 import ModeOverview from '../components/ModeOverview'
 import { phrygianChords } from '../constants/chords'
 
-const Phrygian = props => <Page content={() => content()} title={() => title()}></Page>
+const Phrygian = props => <Panel content={() => content()} title={() => title()}></Panel>
 
 const content = () => (
   <div className='mode-section'>

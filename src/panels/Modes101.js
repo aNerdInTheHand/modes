@@ -1,7 +1,7 @@
 import React from 'react'
-import Page from '../components/Page'
+import Panel from '../components/Panel'
 
-const About = () => <Page content={() => content()} title={() => title()} />
+const Modes101 = () => <Panel content={() => content()} title={() => title()} />
 
 const content = () => (
   <div className='modes-101'>
@@ -24,11 +24,14 @@ const content = () => (
       You'd be forgiven for wondering how playing all the same notes but starting from a different point is any different to playing 'non-modally'.
       But that's kind of the point - it's not. Knowing the modal scales is just the starting point for playing modally.
       What's more important is knowing which notes in the scale provide the 'colour', and knowing when to use them.
-      So pick a key below and let's have a look at the different modes in all their glory and how we can use them.
+    </p>
+    <p>
+      If you want more theory around how to analyse modes in general, check out Modes 102 below.
+      If you want to start looking into the individual modes themselves, pick a key below and let's have a look at the different modes in all their glory and how we can use them.
     </p>
   </div>
 )
 
 const title = () => <div className='subtitle'>Modes 101</div>
 
-export default About
+export default Modes101

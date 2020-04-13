@@ -1,7 +1,7 @@
 import React from 'react'
-import Page from '../components/Page'
+import Panel from '../components/Panel'
 
-const Info = () => <Page content={() => content()} title={() => title()} />
+const Info = () => <Panel content={() => content()} title={() => title()} />
 
 const content = () => (
   <div>

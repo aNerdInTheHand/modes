@@ -1,9 +1,9 @@
 import React from 'react'
-import Page from '../components/Page'
+import Panel from '../components/Panel'
 import ModeOverview from '../components/ModeOverview'
 import { aeolianChords } from '../constants/chords'
 
-const Aeolian = props => <Page content={() => content()} title={() => title()}></Page>
+const Aeolian = props => <Panel content={() => content()} title={() => title()}></Panel>
 
 const content = () => (
   <div className='mode-section'>

@@ -1,15 +1,17 @@
 import React, { useState } from 'react'
 import './App.css'
-import Intro from './pages/Intro'
-import About from './pages/About'
-import Info from './pages/Info'
-import Ionian from './pages/Ionian'
-import Dorian from './pages/Dorian'
-import Phrygian from './pages/Phrygian'
-import Lydian from './pages/Lydian'
-import Mixolydian from './pages/Mixolydian'
-import Aeolian from './pages/Aeolian'
-import Locrian from './pages/Locrian'
+import Intro from './panels/Intro'
+import Modes101 from './panels/Modes101'
+import Modes102 from './panels/Modes102'
+import Info from './panels/Info'
+import Ionian from './panels/Ionian'
+import Dorian from './panels/Dorian'
+import Phrygian from './panels/Phrygian'
+import Lydian from './panels/Lydian'
+import Mixolydian from './panels/Mixolydian'
+import Aeolian from './panels/Aeolian'
+import Locrian from './panels/Locrian'
+// import BackingMixoLydian from './panels/backing/Mixolydian'
 
 const App = () => {
   const keys = ['C', 'G', 'D', 'A', 'E', 'B', 'F#']
@@ -42,7 +44,8 @@ const App = () => {
       <header className="App-header">
         <h1 className='main-header'><span role='img' aria-label='guitar emoji'>🎸</span> Musical Modes for guitarists <span role='img' aria-label='guitar emoji'>🎸</span></h1>
         <Intro />
-        <About />
+        <Modes101 />
+        <Modes102 />
         <hr className='hr' />
         <h2 className='modes-header'>Modes of the major scale</h2>
         <Info />
@@ -54,7 +57,10 @@ const App = () => {
         <Mixolydian />
         <Aeolian />
         <Locrian />
-
+        <hr className='hr' />
+        {/* <h2 className='backing-tracks-header'>Backing Tracks and Examples</h2>
+        <BackingMixoLydian />
+        <hr className='hr' /> */}
         <a
           className="App-link"
           href="https://soundcloud.com/nick-holvast"

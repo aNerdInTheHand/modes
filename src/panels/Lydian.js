@@ -1,9 +1,9 @@
 import React from 'react'
-import Page from '../components/Page'
+import Panel from '../components/Panel'
 import ModeOverview from '../components/ModeOverview'
 import { lydianChords } from '../constants/chords'
 
-const Lydian = props => <Page content={() => content()} title={() => title()}></Page>
+const Lydian = props => <Panel content={() => content()} title={() => title()}></Panel>
 
 const content = () => (
   <div className='mode-section'>

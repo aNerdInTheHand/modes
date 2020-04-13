@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Page = props => {
+const Panel = props => {
   const [showContent, setShowContent] = useState(false)
   const collapseSymbol = '-'
   const expandSymbol = '+'
@@ -14,11 +14,12 @@ const Page = props => {
   }
   return (
     <div
-      className='section' onClick={() => setShowContent(!showContent)}
+      className='section'
       style={sectionStyle}
-      >
+    >
       <span
         className='expand-collapse'
+        onClick={() => setShowContent(!showContent)}
         role='img'
         aria-label='expand or collapse'
         style={symbolStyle}
@@ -35,4 +36,4 @@ const Page = props => {
   )
 }
 
-export default Page
+export default Panel
