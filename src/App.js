@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './App.css'
+import { notes } from './constants/chords'
 import Intro from './panels/Intro'
 import Modes101 from './panels/Modes101'
 import Modes102 from './panels/Modes102'
@@ -17,8 +18,12 @@ const App = () => {
   const keys = ['C', 'G', 'D', 'A', 'E', 'B', 'F#']
   const intervals = ['Tone', 'Tone', 'Semitone', 'Tone', 'Tone', 'Tone', 'Semitone']
   const [key, setKey] = useState('C')
+  const [keyNotes, setNotes] = useState(notes[key])
 
-  const handleKeyChange = e => setKey(e.target.value)
+  const handleKeyChange = e => {
+    setKey(e.target.value)
+    setNotes(notes[e.target.value])
+  }
 
   const selectKeyDropdown = () => (
     <div>
@@ -50,13 +55,13 @@ const App = () => {
         <h2 className='modes-header'>Modes of the major scale</h2>
         <Info />
         {selectKeyDropdown()}
-        <Ionian />
-        <Dorian />
-        <Phrygian />
-        <Lydian />
-        <Mixolydian />
-        <Aeolian />
-        <Locrian />
+        <Ionian notes={keyNotes} />
+        <Dorian notes={keyNotes} />
+        <Phrygian notes={keyNotes} />
+        <Lydian notes={keyNotes} />
+        <Mixolydian notes={keyNotes} />
+        <Aeolian notes={keyNotes} />
+        <Locrian notes={keyNotes} />
         <hr className='hr' />
         {/* <h2 className='backing-tracks-header'>Backing Tracks and Examples</h2>
         <BackingMixoLydian />
