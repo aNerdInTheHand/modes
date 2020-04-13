@@ -1,15 +1,15 @@
 import React from 'react'
 import Panel from '../components/Panel'
 import ModeOverview from '../components/ModeOverview'
-import { dorianChords } from '../constants/chords'
+import { getChords } from '../constants/chords'
 
-const Dorian = props => <Panel content={() => content()} title={() => title()}></Panel>
+const Dorian = props => <Panel content={() => content(props)} title={() => title()} />
 
-const content = () => (
+const content = props => (
   <div className='mode-section'>
     <ModeOverview
       modeName={'Dorian'}
-      chords={dorianChords}
+      chords={getChords(props.selectedKey, 1)}
       article={'a'}
       whatIsIt={() => whatIsIt()}
       soundsLike={() => soundsLike()}

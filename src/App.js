@@ -16,7 +16,6 @@ import Locrian from './panels/Locrian'
 
 const App = () => {
   const keys = ['C', 'G', 'D', 'A', 'E', 'B', 'F#']
-  const intervals = ['Tone', 'Tone', 'Semitone', 'Tone', 'Tone', 'Tone', 'Semitone']
   const [key, setKey] = useState('C')
   const [keyNotes, setNotes] = useState(notes[key])
 
@@ -27,10 +26,12 @@ const App = () => {
 
   const selectKeyDropdown = () => (
     <div>
+      <label htmlFor='select-id-dropdown'>Select a major key:</label>
       <select
         className='select dropdown'
-        onChange={handleKeyChange}
         defaultValue={keys[0]}
+        id='select-key-dropdown'
+        onChange={handleKeyChange}
       >
         {keys.map((selectedKey, i) => (
           <option
@@ -55,13 +56,13 @@ const App = () => {
         <h2 className='modes-header'>Modes of the major scale</h2>
         <Info />
         {selectKeyDropdown()}
-        <Ionian notes={keyNotes} />
-        <Dorian notes={keyNotes} />
-        <Phrygian notes={keyNotes} />
-        <Lydian notes={keyNotes} />
-        <Mixolydian notes={keyNotes} />
-        <Aeolian notes={keyNotes} />
-        <Locrian notes={keyNotes} />
+        <Ionian notes={keyNotes} selectedKey={key} />
+        <Dorian notes={keyNotes} selectedKey={key} />
+        <Phrygian notes={keyNotes} selectedKey={key} />
+        <Lydian notes={keyNotes} selectedKey={key} />
+        <Mixolydian notes={keyNotes} selectedKey={key} />
+        <Aeolian notes={keyNotes} selectedKey={key} />
+        <Locrian notes={keyNotes} selectedKey={key} />
         <hr className='hr' />
         {/* <h2 className='backing-tracks-header'>Backing Tracks and Examples</h2>
         <BackingMixoLydian />
