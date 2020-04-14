@@ -18,9 +18,6 @@ const useAudio = audioPath => {
       audio.play()
       setPlaying(true)
     })
-    // return () => {
-    //   audio.removeEventListener('ended', () => setPlaying(false))
-    // }
   }, [audio])
 
   return [playing, toggle]
