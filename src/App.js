@@ -12,7 +12,7 @@ import Lydian from './panels/Lydian'
 import Mixolydian from './panels/Mixolydian'
 import Aeolian from './panels/Aeolian'
 import Locrian from './panels/Locrian'
-// import BackingMixoLydian from './panels/backing/Mixolydian'
+import BackingMixoLydian from './panels/backing/Mixolydian'
 
 const App = () => {
   const keys = ['C', 'G', 'D', 'A', 'E', 'B', 'F#']
@@ -64,9 +64,9 @@ const App = () => {
         <Aeolian notes={keyNotes} selectedKey={key} />
         <Locrian notes={keyNotes} selectedKey={key} />
         <hr className='hr' />
-        {/* <h2 className='backing-tracks-header'>Backing Tracks and Examples</h2>
+        <h2 className='backing-tracks-header'>Backing Tracks and Examples</h2>
         <BackingMixoLydian />
-        <hr className='hr' /> */}
+        <hr className='hr' />
         <a
           className="App-link"
           href="https://soundcloud.com/nick-holvast"
